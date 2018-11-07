@@ -1,0 +1,9 @@
+change to your directory:
+git init  # inicjalizacja gita jako 'master'
+git status # poka¿ status plików (na czerwono nowe lub zmienione pliki)
+git add test2.txt # dodaj plik 'test2.txt' do póŸniejszej akceptacji (commit)
+git status # na zielono pliki, które dodano za pomoc¹ komendy 'git add '
+git add .  # dodaj wszystkie pliki
+git commit -m "some change" # potwierdŸ zmiany, dodaj¹c komentarz
+git remote add githubRepoLocal https://github.com/adamkowalski123/PowershellScripts.git # jeœli wczeœniej nie powi¹zano lokalnego folderu z repozytorium na serwerze, wymagane aby wys³aæ lokalne pliki na serwer (git push)
+git push githubRepoLocal master # wys³anie plików na serwer repozytorium 'PowershellScripts.git' ga³¹Ÿ master, jeœli problem opcja 'git push -f'
